@@ -2,6 +2,6 @@
 
 ## All project is here :)
 
-# - 1.
+ - # 1 
 
-- Milestone-10 -> Module-3 -> lecture-9 : Guided Project: `Build a Responsive Photo Gallery`
+- <ins> Milestone-10 -> Module-3 -> lecture-9 </ins> : Guided Project: `Build a Responsive Photo Gallery`
