@@ -139,5 +139,12 @@ body {
     p {
       text-align: center;
     }
+    .content {
+      h2 {
+        /* color: red; */
+        font-weight: bold;
+        font-size: 27px;
+      }
+    }
   }
 }
