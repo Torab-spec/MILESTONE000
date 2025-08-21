@@ -18,6 +18,6 @@
 - <ins> M-10 -> M-3 -> L-10 </ins> : Guided Project: `Build a Dashboard Layout` `[B_D_L]`
 
 - # `8`
-- <ins> M-13 -> M-3 -> L-01 </ins> :  Project: ` Build a Parallax Website Using HTML and CSS` `[P_W]`
+- <ins> M-13 -> M-3 -> L-01 </ins> :  Project: ` Build a Parallax Website Using HTML and CSS` `[P_W]` link - `https://dazzling-snickerdoodle-1217da.netlify.app/`
 
 <hr>
