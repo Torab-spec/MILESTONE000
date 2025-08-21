@@ -14,12 +14,15 @@
 
 - # `2`
 - <ins> M-10 -> M-3 -> L-10 </ins> : Guided Project: `Build a Dashboard Layout` `[B_D_L]`
-
-- # `2`
-- <ins> M-10 -> M-3 -> L-10 </ins> : Guided Project: `Build a Dashboard Layout` `[B_D_L]`
+<hr>
+<hr>
 
 - # `8`
 - <ins> M-13 -> M-3 -> L-01 </ins> : Project: ` Build a Parallax Website Using HTML and CSS` `[P_W]`
 - <a href="https://dazzling-snickerdoodle-1217da.netlify.app/">Website Link</a>
 
 <hr>
+<hr>
+
+- # `10`
+- <ins> M-13 -> M-1 -> L-04 </ins> : Guided Project : `Implementing Glassmorphism card Effect` `[I_GM_C_E]
