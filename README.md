@@ -19,7 +19,7 @@
 
 - # `8`
 - <ins> M-13 -> M-3 -> L-01 </ins> : Project: ` Build a Parallax Website Using HTML and CSS` `[P_W]`
-- <a href="enchanting-lebkuchen-edba9f.netlify.app">Website Link</a>
+- <a href="https://enchanting-lebkuchen-edba9f.netlify.app/">Website Link</a>
 
 <hr>
 <hr>
