@@ -25,4 +25,4 @@
 <hr>
 
 - # `10`
-- <ins> M-13 -> M-1 -> L-04 </ins> : Guided Project : `Implementing Glassmorphism card Effect` `[I_GM_C_E]
+- <ins> M-13 -> M-1 -> L-04 </ins> : Guided Project : `Implementing Glassmorphism card Effect` `[I_GM_C_E]`
