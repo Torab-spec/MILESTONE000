@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 :root {
   --text-color: #1a1c20;
@@ -77,6 +78,7 @@ body {
 
     .intor-section-content {
       flex-grow: 2;
+      padding-left: 50px;
 
       h2 {
         font-size: 45px;
@@ -93,6 +95,7 @@ body {
       .links {
         display: flex;
         gap: 18px;
+        flex-wrap: wrap;
         a {
           text-decoration: none;
           padding: 5px 10px;
@@ -103,6 +106,7 @@ body {
       }
     }
     .profile-image {
+      padding-right: 50px;
       flex-grow: 1;
       img {
         width: 350px;
@@ -131,7 +135,7 @@ body {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      /* flex-wrap: wrap; */
+      flex-wrap: wrap;
 
       p {
         display: flex;
@@ -144,6 +148,7 @@ body {
         border: 1.2px solid var(--text-color);
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        text-align: center;
       }
 
       img {
@@ -153,6 +158,105 @@ body {
       }
       span {
         font-size: 19px;
+      }
+    }
+  }
+
+  .testi-mony-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+    h2 {
+      font-size: 35px;
+      text-align: left;
+    }
+    .testi-mony-content-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 40px;
+
+      .testi-mony-image-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 15px;
+
+        img {
+          width: 200px;
+          border-radius: 50%;
+          margin-bottom: 12px;
+        }
+        .testi-mony-head-section {
+          font-weight: 600;
+          margin-bottom: 5px;
+        }
+      }
+
+      .testi-mony-text-section {
+        p {
+          text-align: left;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .contact-section {
+    margin-bottom: 100px;
+    padding: 0 50px;
+
+    h2 {
+      text-align: left;
+      font-size: 35px;
+      margin-bottom: 16px;
+    }
+    .contact-container {
+      display: flex;
+      /* justify-content: center;
+      align-items: start; */
+      gap: 50px;
+      margin-bottom: 10px;
+
+      .contact-text-container {
+        width: 50%;
+
+        p {
+          text-align-last: left;
+        }
+      }
+      .contact-form-content {
+        width: 50%;
+
+        form {
+          display: flex;
+          flex-direction: column;
+          input {
+            background: transparent;
+            padding: 10px;
+            margin-bottom: 18px;
+            outline: none;
+            border: 1.5px solid var(--link-color);
+          }
+          textarea {
+            resize: none;
+            margin-bottom: 15px;
+            border: 1.5px solid var(--link-color);
+            outline: none;
+          }
+          button {
+            font-size: 20px;
+            letter-spacing: 2px;
+            height: 50px;
+            cursor: pointer;
+            background: var(--link-color);
+            color: var(--background-color);
+            outline: none;
+            border: none;
+            border-radius: 2px;
+          }
+        }
       }
     }
   }

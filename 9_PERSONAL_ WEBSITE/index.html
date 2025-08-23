@@ -7,6 +7,7 @@
     <!-- Custom CSS files -->
     <link rel="stylesheet" href="cssfiles/style.css" />
     <link rel="stylesheet" href="cssfiles/animation.css" />
+    <link rel="stylesheet" href="cssfiles/responsive.css" />
     <!-- Font family link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +26,10 @@
       <h1>Md. Torab</h1>
       <ul class="icon-section">
         <li>
-          <a href="https://github.com/Torab-spec/MILESTONE000/tree/main/9_PERSONAL_%20WEBSITE" target="_blank">
+          <a
+            href="https://github.com/Torab-spec/MILESTONE000/tree/main/9_PERSONAL_%20WEBSITE"
+            target="_blank"
+          >
             <i class="fa-brands fa-github"></i>
             <span>Github</span>
           </a>
@@ -60,15 +64,15 @@
         </p>
 
         <div class="links">
-          <a href="#">
+          <a href="#skill-section">
             <i class="fa-solid fa-code"></i>
             <span>Skills</span>
           </a>
-          <a href="#">
+          <a href="#testi-mony-section">
             <i class="fa-solid fa-pen"></i>
             <span>Testimonial</span>
           </a>
-          <a href="#">
+          <a href="#contact-section ">
             <i class="fa-solid fa-envelope"></i>
             <span>Contact</span>
           </a>
@@ -80,7 +84,7 @@
       </div>
     </div>
 
-    <div class="skill-section">
+    <div class="skill-section" id="skill-section">
       <h2>Skills</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
@@ -89,7 +93,7 @@
         quaerat quibusdam neque recusandae optio?
       </p>
 
-       <div class="dev-skill-container">
+      <div class="dev-skill-container">
         <p>
           <img src="images/html-logo.webp" alt="" />
           <span>HTML</span>
@@ -111,7 +115,67 @@
           <img src="images/javascript-logo.webp" alt="" />
           <span>JavaSript</span>
         </p>
-      </div> 
+      </div>
+    </div>
+
+    <div class="testi-mony-section" id="testi-mony-section">
+      <h2>Testimony</h2>
+
+      <div class="testi-mony-content-container">
+        <div class="testi-mony-image-section">
+          <img src="images/testimony.webp" alt="" />
+          <p class="testi-mony-head-section">Md. Torab</p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+
+        <div class="testi-mony-text-section">
+          <p>
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+            sint repudiandae ratione exercitationem saepe distinctio cumque
+            quaerat nostrum laborum? Rem adipisci natus eos nemo reprehenderit,
+            cumque nostrum enim commodi. Eum, enim vero eveniet doloremque sed
+            veniam. Doloremque explicabo non reprehenderit expedita! Accusamus
+            mollitia repellendus dolorum officiis libero quod deleniti cum."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-section" id="contact-section">
+      <h2>Contact</h2>
+
+      <div class="contact-container">
+        <div class="contact-text-container">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            fugit maiores atque architecto saepe tenetur quasi reiciendis illum
+            sint doloremque alias inventore, asperiores maxime pariatur totam
+            hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque
+            perspiciatis minus voluptate dicta. A ratione autem dolor iure
+            libero numquam voluptatem nobis laborum et corporis.
+          </p>
+        </div>
+
+        <div class="contact-form-content">
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="16"
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>

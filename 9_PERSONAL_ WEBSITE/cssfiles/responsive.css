@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    h1 {
+      margin-left: 0px;
+    }
+    .icon-section {
+      gap: 18px !important;
+      margin-right: 5px;
+    }
+  }
+  .intro-section {
+    .intor-section-content {
+      padding-left: 50px !important;
+
+      .profile-image {
+        padding-right: 50px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 504px) and (min-width: 350px) {
+  .navbar {
+    padding: 0 1px !important;
+    .icon-section {
+      gap: 10px !important;
+      li {
+        & a {
+          i {
+            font-weight: 600;
+            font-size: 18px !important;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px !important;
+
+    .intor-section-content {
+      padding: 0 10px 0px 10px !important;
+      h2 {
+        letter-spacing: 1px !important;
+        font-size: 30px !important;
+      }
+      .links {
+        gap: 10px !important;
+        flex-wrap: nowrap !important;
+        a {
+          padding: 4px 7px !important;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 4px;
+        }
+      }
+    }
+  }
+  .profile-image {
+    padding: 0px !important;
+  }
+
+  .testi-mony-section {
+    h2 {
+      text-align: center !important;
+      margin-bottom: 14px;
+    }
+    .testi-mony-content-container {
+      flex-direction: column !important;
+
+      .testi-mony-text-section {
+        p {
+          text-align: center !important;
+          line-height: normal !important;
+        }
+      }
+    }
+  }
+
+  .contact-section {
+    padding: 0 15px !important;
+
+    .contact-container {
+      display: flex !important;
+      justify-content: center !important ;
+      align-items: center !important;
+      flex-direction: column;
+
+      .contact-text-container {
+        width: 100% !important ;
+      }
+
+      .contact-form-content {
+        width: 100% !important;
+      }
+    }
+  }
+}

@@ -40,7 +40,7 @@
     img {
       animation-name: imgwave;
       animation-iteration-count: infinite;
-      animation-duration: 1.3s;
+      animation-duration: 1s;
       animation-timing-function: linear;
       animation-direction: alternate;
     }
@@ -48,7 +48,7 @@
 }
 @keyframes imgwave {
   0% {
-    transform: translateY(2px);
+    transform: translateY(3px);
   }
   100% {
     transform: translateY(-3px);
@@ -64,6 +64,19 @@
       a:hover {
         border: 2px solid var(--text-color);
         color: var(--text-color);
+      }
+    }
+  }
+}
+.testi-mony-section {
+  .testi-mony-content-container {
+    .testi-mony-image-section {
+      img {
+        animation-name: imgwave;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
       }
     }
   }
