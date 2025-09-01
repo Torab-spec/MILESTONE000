@@ -1,0 +1,11 @@
+for (let i = 1; i <= 15; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log("FizzBuzz " + "The number is " + i);
+  } else if (i % 3 == 0) {
+    console.log("Fizz " + "The number is " + i);
+  } else if (i % 5 == 0) {
+    console.log("Buzz " + "The number is " + i);
+  } else {
+    console.log("The number is " + i);
+  }
+}

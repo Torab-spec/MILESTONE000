@@ -25,7 +25,7 @@
 <hr>
 
 - # `9`
-- <ins> M-13 -> M-4 -> </ins> :  Project : `Build a Personal Websites ` `[B_P_W]`
+- <ins> M-13 -> M-4 -> </ins> : Project : `Build a Personal Websites ` `[B_P_W]`
 - <a href="https://ornate-concha-1ccf63.netlify.app/">Website Link</a>
 
 <hr>
@@ -33,3 +33,9 @@
 
 - # `10`
 - <ins> M-13 -> M-1 -> L-04 </ins> : Guided Project : `Implementing Glassmorphism card Effect` `[I_GM_C_E]`
+
+<hr>
+<hr>
+
+- # `11`
+- <ins> M-17 -> M-2 -> L-05 </ins> : Guided Project : `Fizz Buzz Problem`
