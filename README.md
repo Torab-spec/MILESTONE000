@@ -17,6 +17,12 @@
 <hr>
 <hr>
 
+- # `7`
+- <ins> M-12 -> M-3 -> L-05 </ins> : Project: `Build a Fancy Loader Spinner` `[B_F_L_S]`
+
+<hr>
+<hr>
+
 - # `8`
 - <ins> M-13 -> M-3 -> L-01 </ins> : Project: ` Build a Parallax Website Using HTML and CSS` `[P_W]`
 - <a href="https://enchanting-lebkuchen-edba9f.netlify.app/">Website Link</a>
