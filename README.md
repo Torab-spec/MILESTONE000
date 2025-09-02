@@ -45,3 +45,10 @@
 
 - # `11`
 - <ins> M-17 -> M-2 -> L-05 </ins> : Guided Project : `Fizz Buzz Problem`
+<hr>
+<hr>
+
+- # `12`
+- <ins> M-18 -> M-3 -> L-01 </ins> : Project : `Creating a Calculator`
+<hr>
+<hr>
