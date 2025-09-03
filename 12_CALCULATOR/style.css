@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+
+  .calulator {
+    padding: 20px;
+    border-radius: 16px;
+    background: #2d2f38;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+
+    input {
+      width: 320px;
+      border: none;
+      padding: 24px;
+      margin: 10px;
+      font-size: 40px;
+      text-align: right;
+      cursor: pointer;
+      background-color: transparent;
+      color: #fff;
+      outline: none;
+      border-bottom: 1.3px solid white;
+    }
+    input::placeholder {
+      color: white;
+    }
+    .calculator_button_container {
+      display: flex;
+      flex-direction: column;
+
+      .calculator_button_rows {
+        display: flex;
+        justify-content: space-around;
+
+        button {
+          width: 60px;
+          height: 60px;
+          margin: 10px;
+          border-radius: 14px;
+          background: #2d2f38;
+          color: #ffffff;
+          font-size: 20px;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+          cursor: pointer;
+          transition: all 0.2sease;
+          border: none;
+
+          /* For prevent Select option of Html tage*/
+          user-select: none;
+          -webkit-user-select: none; /* Safari, Chrome */
+          -moz-user-select: none; /* Firefox */
+        }
+        .operator {
+          color: #6ee4d5;
+        }
+        .no_select {
+          user-select: none;
+          -webkit-user-select: none; /* Safari, Chrome */
+          -moz-user-select: none; /* Firefox */
+        }
+        button:hover {
+          background: #343637;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+}
