@@ -49,6 +49,11 @@
 <hr>
 
 - # `12`
-- <ins> M-18 -> M-3 -> L-01 </ins> : Project : `Creating a Calculator`
+- <ins> M-18 -> M-3 -> </ins> : Project : `Creating a Calculator`
+<hr>
+<hr>
+
+- # `14`
+- <ins> M-18 -> M-8 -> </ins> : Project : `Build a Tic-Tac-Toe Game Using HTML CSS and JS ` [Tic_Tac]
 <hr>
 <hr>
