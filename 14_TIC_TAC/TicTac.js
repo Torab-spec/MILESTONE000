@@ -1,6 +1,9 @@
 let boxes = document.querySelectorAll(".box");
 let resets = document.querySelectorAll(".reset");
 let turnDetails = document.querySelectorAll(".turnDetails");
+let winModel = document.querySelectorAll(".modal");
+let winMsgContent = document.querySelectorAll(".winMsgContent");
+let playAgain = document.querySelectorAll(".play-again");
 let enterMusic = new Audio("souonds/Copy of ting.mp3");
 let winMusic = new Audio("souonds/Copy of gameover.mp3");
 
@@ -38,6 +41,11 @@ let checkWin = () => {
       turnDetails[0].innerText = `${winner} won`;
       isGameOver = true;
       winMusic.play();
+
+      // Opening Win Model
+      winMsgContent[0].innerText = `Player ${winner} Wins !`;
+      winModel[0].style.display = "flex";
+      playAgain[0].addEventListener("click", resetFunction);
     }
   }
 };
@@ -50,11 +58,12 @@ for (let i = 0; i < boxes.length; i++) {
       turnDetails[0].innerText = `Turn for ${turn}`;
       enterMusic.play();
       checkWin(); // calling the function , then the win condition is apply
+      checkForDraw();
     }
   });
 }
 
-resets[0].addEventListener("click", (e) => {
+let resetFunction = () => {
   for (let i = 0; i < boxes.length; i++) {
     // Creating a Reset Button || Reset button a click korle boxex er element guli empty hoe jabe
 
@@ -62,8 +71,30 @@ resets[0].addEventListener("click", (e) => {
   }
   turn = "X"; // By Default X anar jonne || means jokhon ami 1st click korbo tokhon jate X print hoi seta er logic
   isGameOver = false;
-  turnDetails.innerText = "Turn for X";
-});
+  turnDetails[0].innerText = "Turn for X";
+  winModel[0].style.display = "none";
+};
+
+resets[0].addEventListener("click", () => resetFunction());
+
+let checkForDraw = () => {
+  let anyBlocksEmpty = false;
+  for (let i = 0; i < boxes.length; i++) {
+    if (boxes[i].innerHTML === "") {
+      anyBlocksEmpty = true;
+      break;
+    }
+  }
+  if (anyBlocksEmpty) {
+    return;
+  }
+  if (!anyBlocksEmpty && !isGameOver) {
+    winMsgContent[0].innerText = `Its a draw`;
+    winModel[0].style.display = "flex";
+    playAgain[0].addEventListener("click", resetFunction);
+    winMusic.play();
+  }
+};
 
 /* what I learn in this project */
 /* 
