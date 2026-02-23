@@ -1,6 +1,6 @@
 # MILESTONE000
 
-## All project is here :)
+## All project is here 😒
 
 <!-- ### Drive page link -  -->
 <hr>
@@ -49,11 +49,72 @@
 <hr>
 
 - # `12`
-- <ins> M-18 -> M-3 -> </ins> : Project : `Creating a Calculator`
+- <ins> M-18 -> M-4 -> </ins> : Project : `Creating a Calculator`
 <hr>
 <hr>
 
 - # `14`
-- <ins> M-18 -> M-8 -> </ins> : Project : `Build a Tic-Tac-Toe Game Using HTML CSS and JS ` [Tic_Tac]
+- <ins> M-18 -> M-9 -> </ins> : Project : `Build a Tic-Tac-Toe Game Using HTML CSS and JS ` [Tic_Tac]
 <hr>
+<hr>
+
+- # `15`
+- <ins> M-18 -> M-10 -> L-06 </ins> : Guided Project : `One time Password Generetion` [OTP Gen]
+<hr> 
+<hr>
+
+- # `16`
+- <ins> M-19 -> M-3 -> </ins> : Project : `Build a Quiz App using HTML, CSS, Js` [Quiz App]
+<hr>
+<hr>
+
+- # `17`
+- <ins> M-19 -> M-5 -> L-05 </ins> : Guided Project : `Dynamically Creating and Appending an Image Element with JavaScript` []
+<hr> 
+<hr>
+
+- # `18`
+- <ins> M-19 -> M-7 -> L-05 </ins> : Guided Project : `Implementing Light and Dark Theme Toggle with JavaScript` [DarkLight]
+<hr> 
+<hr>
+
+- # `19`
+- <ins> M-19 -> M-7 -> L-06 </ins> : Guided Project : `Generating the keyboard code` [KeyboardCode]
+<hr> 
+<hr>
+
+- # `20`
+- <ins> M-19 -> M-7 -> L-12 </ins> : Guided Project : `Password Match Verification Using JavaScript` [PassWordMatch]
+<hr> 
+<hr>
+
+- # `21`
+- <ins> M-19 -> M-7 -> L-13 </ins> : Guided Project : `Password Visibility Toggle with Checkbox in HTML` [PasswordVisibility]
+<hr> 
+<hr>
+
+- # `22`
+- <ins> M-20 -> M-5 -> </ins> : Project : `Weather Application` [WeatherApp]
+<hr>
+<hr>
+
+- # `23`
+- <ins> M-20 -> M-10 -> </ins> : Project : `Build a Rich Text Editor Using Js` [TextEditor]
+<hr>
+<hr
+
+- # `24`
+- <ins> M-21 -> M-3 -> L-8 </ins> : Guided Project : `Building Composable UIs with Functional Components` [PasswordVisibility]
+<hr> 
+<hr>
+
+- # `25`
+- <ins> M-21 -> M-5 -> L-4 </ins> : Guided Project : `Builiding Playlist-1 with react` [Playlist]
+<hr> 
+<hr>
+
+# `26`
+
+- <ins> M-21 -> M-5 -> L-6 </ins> : Guided Project : `Builiding Playlist-2 with react` [Playlist]
+<hr> 
 <hr>
