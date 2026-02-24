@@ -53,7 +53,7 @@
 <hr>
 <hr>
 
-- # `14`
+- # `14 ✔️`
 - <ins> M-18 -> M-9 -> </ins> : Project : `Build a Tic-Tac-Toe Game Using HTML CSS and JS ` [Tic_Tac]
 <hr>
 <hr>
@@ -103,8 +103,8 @@
 <hr>
 <hr
 
-- # `24`
-- <ins> M-21 -> M-3 -> L-8 </ins> : Guided Project : `Building Composable UIs with Functional Components` [PasswordVisibility]
+- # `24 ✔️`
+- <ins> M-21 -> M-3 -> L-8 </ins> : Guided Project : `Building Composable UIs with Functional Components` [Comsoble UIs]
 <hr> 
 <hr>
 
