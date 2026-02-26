@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import SongItem from "./components/SongItem";
 
 function App() {
   const data = [
@@ -56,7 +57,11 @@ function App() {
   ];
   return (
     <>
-      <div></div>
+      <div>
+        <h2>My Music Playlist 🎵</h2>
+        <hr></hr>
+        <SongItem songs={data} />
+      </div>
     </>
   );
 }
