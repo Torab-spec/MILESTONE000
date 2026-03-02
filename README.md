@@ -108,12 +108,12 @@
 <hr> 
 <hr>
 
-- # `25`
+- # `25 ✔️`
 - <ins> M-21 -> M-5 -> L-4 </ins> : Guided Project : `Builiding Playlist-1 with react` [Playlist]
 <hr> 
 <hr>
 
-# `26`
+# `26 ✔️`
 
 - <ins> M-21 -> M-5 -> L-6 </ins> : Guided Project : `Builiding Playlist-2 with react` [Playlist]
 <hr> 
