@@ -121,7 +121,7 @@
 <hr> 
 <hr>
 
-# `27`
+# `27 ✔️`
 
 - <ins> M-22 -> M-1 -> P-1 </ins> : Guided Project : `Building a charecter counter` [CharecterCounter]
 <hr> 
