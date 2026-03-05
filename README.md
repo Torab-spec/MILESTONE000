@@ -127,13 +127,13 @@
 <hr> 
 <hr>
 
-# `28`
+# `28 ✔️`
 
 - <ins> M-22 -> M-01 -> P-2 </ins> : Guided Project : `Building a Like Button` [LikeButton]
 <hr> 
 <hr>
 
-# `29`
+# `29 ✔️`
 
 - <ins> M-22 -> M-01 -> P-3 </ins> : Guided Project : `Building a Tempurature converter` [Tempereture converter]
 <hr> 
